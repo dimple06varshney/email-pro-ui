@@ -1,0 +1,67 @@
+{
+    "inboxEmails": {
+      "example.com": [
+        {
+          "id": "1",
+          "subject": "Regarding Project Updates",
+          "message": "Hello, I wanted to discuss the latest updates on the project. Let's schedule a meeting soon.",
+          "timestamp": "2023-10-25T10:30:00Z"
+        },
+        {
+          "id": "6",
+          "subject": "Re: Regarding Project Updates",
+          "message": "Sure, let's schedule a meeting for next week. How about Wednesday?",
+          "timestamp": "2023-10-19T11:05:00Z"
+        }
+      ],
+      "news@example.com": [
+        {
+          "id": "2",
+          "subject": "Newsletter - Weekly Roundup",
+          "message": "Here's our weekly newsletter with the latest news and articles.",
+          "timestamp": "2023-10-24T15:45:00Z"
+        }
+      ],
+      "marketing@example.com": [
+        {
+          "id": "3",
+          "subject": "New Product Launch Announcement",
+          "message": "We're excited to announce the launch of our new product. Check it out!",
+          "timestamp": "2023-10-23T09:15:00Z"
+        },
+        {
+          "id": "5",
+          "subject": "Special Offer for Subscribers",
+          "message": "As a valued subscriber, you're eligible for an exclusive discount. Don't miss out!",
+          "timestamp": "2023-10-21T08:00:00Z"
+        }
+      ],
+      "support@example.com": [
+        {
+          "id": "4",
+          "subject": "Your Support Request #12345",
+          "message": "We've received your support request and will get back to you shortly.",
+          "timestamp": "2023-10-22T17:20:00Z"
+        }
+      ]
+    },
+    "emailSubdivisions": {
+      "example.com": {
+        "name": "Example.com",
+        "color": "#3498db"
+      },
+      "news@example.com": {
+        "name": "News",
+        "color": "#27ae60"
+      },
+      "marketing@example.com": {
+        "name": "Marketing",
+        "color": "#e74c3c"
+      },
+      "support@example.com": {
+        "name": "Support",
+        "color": "#f39c12"
+      }
+    }
+  }
+  
