@@ -1,0 +1,16 @@
+.draggableItem {
+    user-select: none;
+    padding: 16px; /* Adjusted from grid * 2 for simplicity */
+    margin: 10px 20px 8px 20px; /* Adjusted for grid */
+    border-radius: 10px;
+    transition: background-color 0.2s; /* Smooth transition for background color */
+  
+    &:hover {
+      background: #e8ebee !important; /* Background color on hover */
+    }
+  }
+  
+  .emailSectionHeading {
+    padding-left: 5px;
+    font-weight: bold;
+  }

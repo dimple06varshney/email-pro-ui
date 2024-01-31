@@ -7,8 +7,8 @@ import DragDropList from "./inbox/list";
 export function Main() {
     return <> 
         <Header />
-        <Sidebar />
+        {/* <Sidebar /> */}
         <InboxEmail data={dummyJSON}/>
-        <DragDropList/>
+        {/* <DragDropList/> */}
     </>
 }

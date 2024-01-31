@@ -18,19 +18,22 @@ export default function DragDropList() {
         setPeople(peopleClone)
     }
     return (
-        <main className="" style={{display: "flex", minHeight: "screen", flexDirection: "column", alignItems:"center", gap: "10px"}}>
-            <h1>list</h1>
-            {people.map((person, index) => (
-                <div key={index} style={{position: "relative", display: "flex", border: "", backgroundColor: "#e3dadb", borderRadius: "10px", padding: "12px"}}
-                 draggable
-                 onDragStart={() => (dragPerson.current = index)}
-                 onDragEnter={() => (draggedOverPerson.current = index)}
-                 onDragEnd={handleSort}
+        // <main className="" style={{display: "flex", minHeight: "screen", flexDirection: "column", alignItems:"center", gap: "10px"}}>
+        //     <h1>list</h1>
+        //     {people.map((person, index) => (
+        //         <div key={index} style={{position: "relative", display: "flex", border: "", backgroundColor: "#e3dadb", borderRadius: "10px", padding: "12px"}}
+        //          draggable
+        //          onDragStart={() => (dragPerson.current = index)}
+        //          onDragEnter={() => (draggedOverPerson.current = index)}
+        //          onDragEnd={handleSort}
                 
-                >
-                    <p>{person.name}</p>
-                </div>
-            ))}
-        </main>
+        //         >
+        //             <p>{person.name}</p>
+        //         </div>
+        //     ))}
+        // </main>
+        <div>
+            
+        </div>
     )
 }
