@@ -1,11 +1,12 @@
 {
+  "sectionsOrder": ["example.com", "news@example.com", "marketing@example.com", "support@example.com"],
     "inboxEmails": {
       "example.com": [
         {
           "id": "1",
           "subject": "Regarding Project Updates",
           "message": "Hello, I wanted to discuss the latest updates on the project. Let's schedule a meeting soon.",
-          "timestamp": "2023-10-25T10:30:00Z"
+          "timestamp": "2024-01-31T10:30:00Z"
         },
         {
           "id": "6",
@@ -51,15 +52,15 @@
         "color": "#3498db"
       },
       "news@example.com": {
-        "name": "News",
+        "name": "news@example.com",
         "color": "#27ae60"
       },
       "marketing@example.com": {
-        "name": "Marketing",
+        "name": "marketing@example.com",
         "color": "#e74c3c"
       },
       "support@example.com": {
-        "name": "Support",
+        "name": "support@example.com",
         "color": "#f39c12"
       }
     }
