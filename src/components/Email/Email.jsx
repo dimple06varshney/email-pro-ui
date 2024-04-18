@@ -1,4 +1,4 @@
-import { formatDate } from "../helpers/helper";
+import { formatDate } from "../../helpers/helper";
 
 const Email = ({ email, emailSubDivision, style }) => {
   console.log("email, emailSubDivision_", email, emailSubDivision);

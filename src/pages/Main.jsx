@@ -1,4 +1,4 @@
-import { Header } from "../components/Header";
+import { Header } from "../apps/Header/HeaderContainer";
 import { Sidebar } from "../components/Sidebar";
 import InboxEmail from "./inbox";
 import dummyJSON from "./inbox/dumyData.json";

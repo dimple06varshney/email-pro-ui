@@ -1,7 +1,7 @@
 import { Reorder, useMotionValue } from "framer-motion";
 import { useState } from "react";
 import { useRaisedShadow } from "../user-raised-shadow";
-import Email from "../../components/Email";
+import Email from "../../components/Email/Email";
 import { DragDropContext, Draggable } from "react-beautiful-dnd";
 import { StrictModeDroppable } from "../../StrictModeDroppable";
 import './inbox.css';

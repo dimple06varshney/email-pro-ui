@@ -6,11 +6,11 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
-import EmailIcon from "../assets/icons/email_icon.png";
+import EmailIcon from "../../assets/icons/email_icon.png";
 import { Grid } from "@mui/material";
 import styled from "@emotion/styled";
-import { SearchBar } from "./SearchBar";
-import { RightSideBar } from "./RightSideBar";
+import { SearchBar } from "../../components/SearchBar";
+import { RightSideBar } from "../../components/RightSideBar";
 
 const StyledAppBar = styled(AppBar)({
   background: "#F5F5F5",
