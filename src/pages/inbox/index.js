@@ -21,11 +21,8 @@ const getItemStyle = (isDragging, draggableStyle) => ({
 // a little function to help us with reordering the result
 const reorder = (list, startIndex, endIndex) => {
   const result = Array.from(list);
-  console.log("result_list_", result, list);
   const [removed] = result.splice(startIndex, 1);
-  console.log("removed__", [removed]);
   result.splice(endIndex, 0, removed);
-  console.log("result_splice__", result);
   return result;
 };
 
@@ -40,7 +37,6 @@ export default function InboxEmail({ data }) {
     reorderedKeys.forEach((key) => {
       reorderedData[key] = emailSections.inboxEmails[key];
     });
-    console.log("Reordered sections:", reorderedData);
     setEmailSections({ ...emailSections, inboxEmails: reorderedData });
   };
 
@@ -49,14 +45,11 @@ export default function InboxEmail({ data }) {
     if (!result.destination) {
       return;
     }
-    console.log("result.source.index,result.destination.index", result.source.index,
-    result.destination.index);
     const items = reorder(
       sectionsOrder,
       result.source.index,
       result.destination.index
     );
-    console.log("items__", items);  
     setSectionsOrder(items);
   };
 

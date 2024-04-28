@@ -46,7 +46,6 @@ export class DragDrop extends Component {
     this.state = {
       items: getItems(10)
     };
-    console.log("this.state", this.state.items);
     this.onDragEnd = this.onDragEnd.bind(this);
   }
 
