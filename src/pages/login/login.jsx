@@ -20,7 +20,6 @@ export function Login() {
   }
 
   useEffect(() => {
-    console.log("isSuccess----", isSuccess);
     if (isSuccess) navigate('/');
   }, [isSuccess]);
 

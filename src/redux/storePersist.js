@@ -33,7 +33,6 @@ export const storePersist = {
   },
   get: (key) => {
     const result = window.localStorage.getItem(key);
-    console.log("result___^^^", result);
     if (!result) {
       return false;
     } else {

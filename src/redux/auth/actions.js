@@ -22,13 +22,11 @@ export const loginwithGoogle = () => async (dispatch) => {
         isSuccess: true,
       };
       localStorage.setItem("auth", JSON.stringify(auth_state));
-      console.log("auth_loggedin_authstate__");
       window.localStorage.removeItem("isLogout");
       dispatch({
         type: actionTypes.REQUEST_SUCCESS,
         payload: userData,
       });
-      console.log("dispacted___");
     })
     .catch((err) => {
       dispatch({
